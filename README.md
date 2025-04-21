@@ -14,7 +14,7 @@ This project is a **Retrieval-Augmented Generation (RAG)-based AI Doctor Chatbot
    - Stored embeddings in **Pinecone**, a cloud-native vector database, for efficient similarity searches and low-latency retrieval.  
 
 3. **LLM Integration (Groq)**  
-   - Utilized **Groq's ultra-fast LLM API** with the **Gemma-7B-IT model** to generate human-readable, medically relevant responses.  
+   - Utilized **Groq's ultra-fast LLM API** with the **Gemma2-9b-it model** to generate human-readable, medically relevant responses.  
    - Combined retrieved context from Pinecone with Groq's generative capabilities to ensure answers are grounded in the textbook data (RAG architecture).  
 
 4. **Frontend & Backend**  
@@ -39,7 +39,7 @@ This project is a **Retrieval-Augmented Generation (RAG)-based AI Doctor Chatbot
 
 ### **Technologies Used**  
 - **Frameworks**: LangChain, Flask  
-- **LLM & Embeddings**: Groq (Gemma-7B-IT), Hugging Face (`sentence-transformers/all-MiniLM-L6-v2`)  
+- **LLM & Embeddings**: Groq (Gemma2-9b-it), Hugging Face (`sentence-transformers/all-MiniLM-L6-v2`)  
 - **Database**: Pinecone (vector DB)  
 - **Cloud & DevOps**: AWS EC2, Docker, GitHub Actions (CI/CD)  
 - **Tools**: GitHub, Python  
